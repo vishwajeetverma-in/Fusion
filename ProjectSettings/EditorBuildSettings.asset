@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Game.unity
     guid: 6341ce06ec17e1a40b7e7fd2429dad3c
+  - enabled: 1
+    path: Assets/Zdelete/New Scene.unity
+    guid: eeee8f2498fc9f841881b699ad83f534
+  - enabled: 1
+    path: Assets/Zdelete/New Scene 1.unity
+    guid: 61ba57adc92c16c49a91a47acd3884ad
   m_configObjects: {}

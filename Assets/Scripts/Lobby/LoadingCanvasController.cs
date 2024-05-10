@@ -30,7 +30,7 @@ public class LoadingCanvasController : MonoBehaviour
     private void OnPlayerJoinedSuccesfully()
     {
         const string CLIP_NAME = "Out";
-        StartCoroutine(Utils.PlayAnimAndSetStateWhenFinished(gameObject, anim, CLIP_NAME,false));
+        StartCoroutine(Utils.PlayAnimAndSetStateWhenFinished(gameObject, anim, CLIP_NAME, false));
     }
 
     private void CancelRequest()

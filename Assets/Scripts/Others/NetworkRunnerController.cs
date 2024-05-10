@@ -56,17 +56,17 @@ public class NetworkRunnerController : MonoBehaviour, INetworkRunnerCallbacks
 
     void INetworkRunnerCallbacks.OnConnectFailed(NetworkRunner runner, NetAddress remoteAddress, NetConnectFailedReason reason)
     {
-        Debug.Log("Connected to server");
+        Debug.Log("Connection Failed");
     }
 
     void INetworkRunnerCallbacks.OnConnectRequest(NetworkRunner runner, NetworkRunnerCallbackArgs.ConnectRequest request, byte[] token)
     {
-        Debug.Log("Connected to server");
+        Debug.Log("Requested to Connect");
     }
 
     void INetworkRunnerCallbacks.OnCustomAuthenticationResponse(NetworkRunner runner, Dictionary<string, object> data)
     {
-        Debug.Log("Connected to server");
+        Debug.Log("");
     }
 
     void INetworkRunnerCallbacks.OnDisconnectedFromServer(NetworkRunner runner)
